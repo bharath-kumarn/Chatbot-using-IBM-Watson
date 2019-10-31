@@ -1,0 +1,751 @@
+<html>
+    <head>
+        <title>Home</title>
+        <script src="assets/jquery-3.3.1.min.js"></script>
+        <script src="assets/bootstrap.min.js"></script>
+        <script src="home.js"></script>
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="F:\PROJECTS\Merchandise Site\assets\fontawesome-free-5.8.1-web\fontawesome-free-5.8.1-web\css\all.css">
+        <link rel="stylesheet" href="home.css">
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md  sticky-top shadow" style="background-color: black;">
+			<img class="navbar-brand" src="Images/logo.png">
+			
+			<button class="navbar-toggler text-align:center" data-toggle="collapse" data-target="#items">Menu
+            </button>
+			<div class="collapse navbar-collapse justify-content-end" id="items">
+			<ul class="navbar-nav ">
+				<li class="nav-item"><a href="#" class="nav-link text-light cool-link">Home</a></li>
+                
+				<li class="nav-item"><a href="#" class="nav-link text-light cool-link dropdown-toggle" data-toggle="dropdown"  id="shop" >Shop  <span class="caret" ></span><span class="badge badge-warning badge-pill">New</span></a>
+                   <div class="dropdown-menu bg-dark text-white"> 
+                <ul class="flex-container">
+                    <li><a href="#shirtcategory">Tshirts & hoodies<span class="badge badge-warning badge-pill">20% off</span></a></li>
+                    <li><a href="#comiccategory">Comics<span class="badge badge-warning badge-pill">New</span></a></li>
+                    <li><a href="#acccategory">Accessories</a></li>
+                     <li><a href="#">Gift packs<span class="badge badge-warning badge-pill">New</span></a></li>
+                    <li><a href="#">Mugs</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                     <li><a href="#">Notebooks<span class="badge badge-warning badge-pill">New</span></a></li>
+                    <li><a href="#">Badges</a></li>
+                    <li><a href="#">Laptop cover</a></li>
+                     <li><a href="#">Backpacks</a></li>
+                    <li><a href="#">Gloves</a></li>
+                    <li><a href="#">Posters</a><span class="badge badge-warning badge-pill">Combo</span></li>
+                      <li><a href="#">Caps</a></li>
+                    <li><a href="#">Stationary</a></li>
+                    <li><a href="#">Masks & costumes<span class="badge badge-warning badge-pill">New</span></a></li>
+                      <li><a href="#">Stickers</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Accessories</a></li>
+                      <li><a href="#">Tshirts & hoodies</a></li>
+                    <li><a href="#">Comics</a></li>
+                       </ul></div>
+               </li>
+                
+                <!--Search button-->
+                <li>
+				<form class="form-inline">
+				<input type="text" class="form-control mr-sm-2 text-white" placeholder="search"/>
+                    <button class="btn btn bg-success"><i class="fa fa-search"></i></button>
+                    </form></li>
+                
+                <li class="nav-item"><a href="about.html" class="nav-link text-light cool-link">About</a></li>
+                
+                   <li class="nav-item"><a href="signin.html" class="nav-link text-light cool-link">Sign in</a></li>
+                
+                <li class="nav-item"><a href="chatbot.html" class="nav-link text-light cool-link">FAQ/Help</a></li>
+                
+                <li class="nav-item"><a href="kart.html" class="nav-link text-light cool-link"><i class="fa fa-shopping-cart"></i><span class="badge badge-warning badge-pill" >  2</span></a></li>
+                
+                
+                <!-- profile -->
+                <div class="dropleft">
+                <li class="nav-item"><a href="#" class="nav-link text-light cool-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><span class="badge badge-warning badge-pill" >  5</span></a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><img src="Images/Toys/DpJf7Un.jpg"></li>
+                        <li class="dropdown-item">Bharath Vasishta</li>
+                        <li class="dropdown-item">+91 9999999999</li>
+                        <li class="dropdown-item">Bengaluru-73</li>
+                        <li class="dropdown-item">Wishlist<span class="badge badge-primary badge-pill" >  3</span></li>
+                        <li class="dropdown-item">Orders<span class="badge badge-primary badge-pill" >  2</span></li>
+                        <li class="dropdown-item">Sign out</li>
+                    </ul>
+                </div>
+                </li>
+                </div>
+                
+			</ul>
+                    
+			</div>
+		</nav>
+        
+        <!--
+        <!-- carousel -->
+        <div id="container-fluid" id="slides">
+           
+            <div id="ss" class="jumbotron">
+                </div>
+        </div>
+        
+        
+        <!-- Chat widget -->
+        
+        <a href="chatbot.html" class="" id="chatwid">
+            
+            <p>Chat</p>
+            
+            </a>
+        
+        
+        <!-- Featured produtcs(new) -->
+        <div class="container">
+        <h3 class="text-center p-4 text-white">Upto 20% discount  <span class="badge badge-danger badge-pill">Brand new</span></h3>
+            <center>
+		<div class="row">
+			
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/1546673680_Marvel_Blackpanther_TChallasNecklace_FoldedtMockup.jpg" class=" card-img-top">
+            
+             <div class="card-body bg-dark ">Black panther T-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+			
+		</div>
+			</div>
+		
+		
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/avengersposter.jpg" class=" card-img-top">
+			
+             <div class="card-body bg-dark ">Avengers poster @ 199<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/batbag.jpg" class=" card-img-top">
+			
+             <div class="card-body bg-dark ">Batman travel bag @ 499<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/avenger2.jpg" class=" card-img-top">
+                
+                
+                 <div class="card-body bg-dark ">Avengers poster @ 199<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+           </div>
+		</div>
+                
+                <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/batback.jpg" class=" card-img-top">
+			
+             <div class="card-body bg-dark ">Batman backpack @ 599<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+		
+		 
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/cap.jpg" class=" card-img-top">
+			
+             <div class="card-body bg-dark ">Captain America t-shirt @299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/bathood.jpg" class=" card-img-top">
+			
+             <div class="card-body bg-dark ">Batman Hoodie @ 499<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/batbook.jpg" class=" card-img-top">
+		
+             <div class="card-body bg-dark ">Batman notebook @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            </center>
+            </div>
+		</div>
+        <hr>
+        <!-- Featured produtcs(discount) -->
+        <div class="container">
+        <h3 class="text-center p-4 text-white">Recently viewed  <span class="badge badge-success badge-pill">COD available</span></h3>
+            <center>
+		<div class="row">
+			
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center " style="width: 300px">
+			<img src="Images/Accessories/WWbook3.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Wonder woman notebook @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+		
+		
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/venom3.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Venom t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/punishercap.jpg"Images/Accessories/batbag.jpg"" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Punisher cap @ 149<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/three.jpg" class=" card-img-top">
+            
+          <div class="card-body bg-dark ">T-shirt combo @ 799<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+                </div>
+		</div>
+                
+                <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/supesbook2.jpg" class=" card-img-top">
+            
+             <div class="card-body bg-dark ">Superman notebook @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+			
+		</div>
+			</div>
+		
+		 
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/thor.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Thor t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/stonecoldposter.jpg" class=" card-img-top">
+			
+           <div class="card-body bg-dark ">Stone cold poster @ 199<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/spider.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Spiderman t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+		
+		</div>
+			</div>
+            </center>
+            </div>
+		</div>
+        <hr>
+        
+        <!-- Categories -->
+        <div class="container-fluid flex-container">
+           <center> <p class="display-4 text-white">Shop by category: <a href="#shirtcategory" class="sortlist text-white">T-shirts   </a><a href="#comiccategory" class="sortlist">Comics   </a><a href="#acccategory" class="sortlist">Accessories</a></p>
+               
+            </center>
+            <!-- Tshirts -->
+            <div id="shirtcategory">
+                 <center><h2 class="p-4 text-white">T-shirts & Hoodies</h2></center><br>
+                	<center>
+                <div class="row">
+			
+		
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center " style="width: 300px">
+			<img src="Images/TShirts/1546673680_Marvel_Blackpanther_TChallasNecklace_FoldedtMockup.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Black panther t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+		
+		
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/venom3.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Venom t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/avengers.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Avengers t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/three.jpg" class=" card-img-top">
+            
+          <div class="card-body bg-dark ">T-shirt combo @ 799<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+                </div>
+		</div>
+                
+                <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/bathood.jpg" class=" card-img-top">
+            
+             <div class="card-body bg-dark ">Batman hoodie @ 499<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+			
+		</div>
+			</div>
+		
+		 
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/thor.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Thor t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/caphood.jpg" class=" card-img-top">
+			
+           <div class="card-body bg-dark ">Captain America hoodie @ 499<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/TShirts/spider.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Spiderman t-shirt @ 299<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+		
+		</div>
+			</div>
+            </center>
+            </div>
+                
+                <!-- Comics -->
+                <div id="comiccategory">
+                 <center><h2 class="p-4 text-white">Comics</h2></center><br>
+                	<center>
+                <div class="row">
+			
+		
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center " style="width: 300px">
+			<img src="Images/Comics/16292-2401-18159-1-captain-marvel.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Captain Marvel comic @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+		
+		
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/19840.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Captain Marvel comic @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/510K7bePyFL._SX335_BO1,204,203,200_.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Captain America comic @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/616131.jpg" class=" card-img-top">
+            
+          <div class="card-body bg-dark ">Black panther comic @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+                </div>
+		</div>
+                
+                <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/711771._SX1280_QL80_TTD_.jpg" class=" card-img-top">
+            
+             <div class="card-body bg-dark ">Marvel superhero adventures @ 199<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+			
+		</div>
+			</div>
+		
+		 
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/Batman_Adventures_Vol_1_1.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Batman adventures @ 199<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/black-panther-2-comic-1.jpg" class=" card-img-top">
+			
+           <div class="card-body bg-dark ">Black panther comic @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Comics/BLAP2016001_DC11-666x1024.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Black panther comic @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+		
+		</div>
+			</div>
+            </center>
+            </div>
+                            
+                    <!-- Accessories -->
+                    <div id="acccategory">
+                 <center><h2 class="p-4 text-white">Accessories</h2></center><br>
+                	<center>
+                <div class="row">
+			
+		
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center " style="width: 300px">
+			<img src="Images/Accessories/batback.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Batman backpack @ 599<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+		
+		
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/batbook.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Batman notebook @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/bookcombo.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Wonder woman notebook combo @ 249<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/BPcap.jpg" class=" card-img-top">
+            
+          <div class="card-body bg-dark ">Black panther cap @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+                </div>
+		</div>
+                
+                <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/cap-bag.jpg" class=" card-img-top">
+            
+             <div class="card-body bg-dark ">Captain America backpack @ 499<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+			
+		</div>
+			</div>
+		
+		 
+			
+			<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/jokerbook.jpg" class=" card-img-top">
+			
+            <div class="card-body bg-dark ">Joker notebook @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+			
+			
+				<div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/punishercap.jpg" class=" card-img-top">
+			
+           <div class="card-body bg-dark ">Punisher cap @ 99<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+            
+		</div>
+			</div>
+            
+            <div class="col-md-3 col-lg-3 ">
+		<div class="card text-center" style="width: 300px">
+			<img src="Images/Accessories/poolmug.jpg" class=" card-img-top">
+            
+            <div class="card-body bg-dark ">Deadpool coffee mug @ 199<br>
+                <a href="#" class="btn btn-danger"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fa fa-share"></i></a>
+                <a href="#" class="btn btn-success"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+		
+		</div>
+			</div>
+            </center>
+            </div>
+                
+            </div>
+        </div>
+        <hr>
+        <!-- Footer -->
+        <footer class="container-fluid">
+            <div class="jumbotron-fluid flex-container" id="footer">
+           <div class="card-deck">
+		<div class="card bg-danger">
+		<div class="card-body text-center">
+            <center>
+            <h3>Our partners</h3>
+			<ul>
+                <li>Marvel</li>
+                <li>DC</li>
+                <li>Lorem</li>
+                <li>Ipsum</li>
+                <li>Lorem again</li>
+                </ul></center>
+		</div>
+		</div>
+		
+		<div class="card bg-dark">
+		<div class="card-body text-center">
+            <h3>Our services</h3>
+			<p class="card-text text-light">Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy textLorem Ipsum is simply dummy text
+			Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy textLorem Ipsum is simply dummy textLorem Ipsum is simply dummy text</p>
+		</div>
+		</div>
+		
+		<div class="card bg-success">
+		<div class="card-body text-center">
+            <h3>Contact us</h3>
+			<p class="card-text">No 221B, Baker street<br>London<br>Ph no:123456789<br>E-mail: loremipsum@gmail.com</p>
+		</div>
+		</div>
+		</div>
+                <br>
+               <p class="p-4" id="myname"> Designed by Bharath Vasishta<p>
+            </div>
+        </footer>
+        
+    </body>
+    
+</html>

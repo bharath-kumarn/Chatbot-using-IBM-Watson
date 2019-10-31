@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <title>Cart</title>
+        <script src="assets/jquery-3.3.1.min.js"></script>
+        <script src="assets/bootstrap.min.js"></script>
+        <script src="home.js"></script>
+        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="F:\PROJECTS\Merchandise Site\assets\fontawesome-free-5.8.1-web\fontawesome-free-5.8.1-web\css\all.css">
+        <link rel="stylesheet" href="kart.css">
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md  sticky-top shadow" style="background-color: black;">
+			<img class="navbar-brand" src="Images/logo.png">
+			
+			<button class="navbar-toggler text-align:center" data-toggle="collapse" data-target="#items">Menu
+            </button>
+			<div class="collapse navbar-collapse justify-content-end" id="items">
+			<ul class="navbar-nav ">
+				<li class="nav-item"><a href="home.html"#"" class="nav-link text-light cool-link">Home</a></li>
+                
+				<li class="nav-item"><a href="#" class="nav-link text-light cool-link dropdown-toggle" data-toggle="dropdown"  id="shop" >Shop  <span class="caret" ></span><span class="badge badge-warning badge-pill">New</span></a>
+                   <div class="dropdown-menu bg-dark text-white"> 
+                <ul class="flex-container">
+                    <li><a href="#shirtcategory">Tshirts & hoodies<span class="badge badge-warning badge-pill">20% off</span></a></li>
+                    <li><a href="#comiccategory">Comics<span class="badge badge-warning badge-pill">New</span></a></li>
+                    <li><a href="#acccategory">Accessories</a></li>
+                     <li><a href="#">Gift packs<span class="badge badge-warning badge-pill">New</span></a></li>
+                    <li><a href="#">Mugs</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                     <li><a href="#">Notebooks<span class="badge badge-warning badge-pill">New</span></a></li>
+                    <li><a href="#">Badges</a></li>
+                    <li><a href="#">Laptop cover</a></li>
+                     <li><a href="#">Backpacks</a></li>
+                    <li><a href="#">Gloves</a></li>
+                    <li><a href="#">Posters</a><span class="badge badge-warning badge-pill">Combo</span></li>
+                      <li><a href="#">Caps</a></li>
+                    <li><a href="#">Stationary</a></li>
+                    <li><a href="#">Masks & costumes<span class="badge badge-warning badge-pill">New</span></a></li>
+                      <li><a href="#">Stickers</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Accessories</a></li>
+                      <li><a href="#">Tshirts & hoodies</a></li>
+                    <li><a href="#">Comics</a></li>
+                       </ul></div>
+               </li>
+                
+                <!--Search button-->
+                <li>
+				<form class="form-inline">
+				<input type="text" class="form-control mr-sm-2 text-white" placeholder="search"/>
+                    <button class="btn btn bg-success"><i class="fa fa-search"></i></button>
+                    </form></li>
+                
+                <li class="nav-item"><a href="about.html" class="nav-link text-light cool-link">About</a></li>
+                
+                   <li class="nav-item"><a href="signin.html" class="nav-link text-light cool-link">Sign in</a></li>
+                
+                <li class="nav-item"><a href="chatbot.html" class="nav-link text-light cool-link">FAQ/Help</a></li>
+                
+                <li class="nav-item"><a href="#" class="nav-link text-light cool-link"><i class="fa fa-shopping-cart"></i><span class="badge badge-warning badge-pill" >  2</span></a></li>
+                
+                
+                <!-- profile -->
+                <div class="dropleft">
+                <li class="nav-item"><a href="#" class="nav-link text-light cool-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><span class="badge badge-warning badge-pill" >  5</span></a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><img src="Images/Toys/DpJf7Un.jpg"></li>
+                        <li class="dropdown-item">Bharath Vasishta</li>
+                        <li class="dropdown-item">+91 9999999999</li>
+                        <li class="dropdown-item">Bengaluru-73</li>
+                        <li class="dropdown-item">Wishlist<span class="badge badge-primary badge-pill" >  3</span></li>
+                        <li class="dropdown-item">Orders<span class="badge badge-primary badge-pill" >  2</span></li>
+                        <li class="dropdown-item">Sign out</li>
+                    </ul>
+                </div>
+                </li>
+                </div>
+                
+			</ul>
+                    
+			</div>
+		</nav>
+        
+        
+        <!-- Cart ordered items -->
+        
+        <div class="jumbotron bg-warning">
+            
+            <div class="container">
+                
+                <div class="card-deck"><!-- card deck 1 -->
+                
+                <div class="card "><!-- card-1 -->
+                    
+                    <div class="card-header row" style="padding-bottom: -40px">
+                        <div class="col-sm-8" >
+                            <p style="font-weight: bold;">Captain Marvel comic</p>
+                            <p style="margin-top: -20px">Quantity:2</p> <h3 style="margin-top: -20px">199 INR</h3>
+                            <p style="margin-top: -0px">Seller:Marvel Official Merchandise</p>
+                            <h5>Status:</h5>
+                            <p style="margin-top: -10px">Ordered:16th May'19</p>
+                            <p style="margin-top: -20px">Expected Delivery:20th May'19</p>
+                        </div>
+                        
+                        <div class="col-sm-4 ">
+                            <img src="Images/Comics/16292-2401-18159-1-captain-marvel.jpg" class="" style="width: 50px;height: auto;margin: 0% 50%">
+                        </div>
+                    </div>
+                   
+                    <div class="card-footer " style="">
+                        <button class="btn btn-danger ">Cancel order</button>
+                        <button class="btn btn-success ">Change address</button>
+                        <button class="btn btn-primary ">Need help?</button>
+                    </div>
+                    
+                </div>
+                    
+                    
+                    <div class="card "><!-- card-2 -->
+                    
+                    <div class="card-header row" style="padding-bottom: -40px">
+                         <div class="col-sm-8" >
+                            <p style="font-weight: bold;">Superhero notebook combo</p>
+                            <p style="margin-top: -20px">Quantity:2</p> <h3 style="margin-top: -20px">299 INR</h3>
+                            <p style="margin-top: -0px">Seller:Marvel Official Merchandise</p>
+                            <h5>Status:</h5>
+                            <p style="margin-top: -10px">Ordered:16th May'19</p>
+                            <p style="margin-top: -20px">Expected Delivery:20th May'19</p>
+                        </div>
+                        
+                        <div class="col-sm-4 ">
+                            <img src="Images/Accessories/bookcombo.jpg" class="" style="width: 50px;height: auto;margin: 0% 50%">
+                        </div>
+                    </div>
+                   
+                    <div class="card-footer " style="">
+                        <button class="btn btn-danger ">Cancel order</button>
+                        <button class="btn btn-success ">Change address</button>
+                        <button class="btn btn-primary ">Need help?</button>
+                    </div>
+                    
+                </div>
+                
+                
+            </div><!-- card-deck-1 -->
+                
+                
+                
+                
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        <!-- Delivered items -->
+        
+        <div class="jumbotron bg-success">
+            
+            <div class="container">
+                
+                <div class="card-deck"><!-- card deck 1 -->
+                
+                <div class="card "><!-- card-1 -->
+                    
+                    <div class="card-header row" style="padding-bottom: -40px">
+                        <div class="col-sm-8" >
+                            <p style="font-weight: bold;">Batman travel bag</p>
+                            <p style="margin-top: -20px">Quantity:1</p> <h3 style="margin-top: -20px">599 INR</h3>
+                            <p style="margin-top: -0px">Seller:DC Official Merchandise</p>
+                            <h5>Status:</h5>
+                            <p style="margin-top: -10px">Ordered:6th May'19</p>
+                            <p style="margin-top: -20px">Deliverd:10th May'19</p>
+                        </div>
+                        
+                        <div class="col-sm-4 ">
+                            <img src="Images/Accessories/batbag.jpg" class="" style="width: 50px;height: auto;margin: 0% 50%">
+                        </div>
+                    </div>
+                   
+                    <div class="card-footer " style="">
+                        <button class="btn btn-danger ">Rate the product</button>
+                        <button class="btn btn-success ">Return product</button>
+                        <button class="btn btn-primary ">Need help?</button>
+                    </div>
+                    
+                </div>
+                    
+                    
+                    <div class="card "><!-- card-2 -->
+                    
+                    <div class="card-header row" style="padding-bottom: -40px">
+                        <div class="col-sm-8" >
+                            <p style="font-weight: bold;">Avengers T-shirt</p>
+                            <p style="margin-top: -20px">Quantity:3</p> <h3 style="margin-top: -20px">999 INR</h3>
+                            <p style="margin-top: -0px">Seller:DC Official Merchandise</p>
+                            <h5>Status:</h5>
+                            <p style="margin-top: -10px">Ordered:6th april'19</p>
+                            <p style="margin-top: -20px">Deliverd:10th april'19</p>
+                        </div>
+                        
+                        <div class="col-sm-4 ">
+                            <img src="Images/TShirts/avenger2.jpg" class="" style="width: 50px;height: auto;margin: 0% 50%">
+                        </div>
+                    </div>
+                   
+                    <div class="card-footer " style="">
+                        <button class="btn btn-danger ">Rate the product</button>
+                        <button class="btn btn-success ">Return product</button>
+                        <button class="btn btn-primary ">Need help?</button>
+                    </div>
+                    
+                </div>
+                    
+                    
+                    
+                
+                
+            </div><!-- card-deck-1 -->
+                
+                
+                
+                
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+<!-- Footer -->
+        <footer class="container-fluid text-white">
+            <div class="jumbotron-fluid flex-container" id="footer">
+           <div class="card-deck">
+		<div class="card bg-danger">
+		<div class="card-body text-center">
+            <center>
+            <h3>Our partners</h3>
+			<ul>
+                <li>Marvel</li>
+                <li>DC</li>
+                <li>Lorem</li>
+                <li>Ipsum</li>
+                <li>Lorem again</li>
+                </ul></center>
+		</div>
+		</div>
+		
+		<div class="card bg-dark">
+		<div class="card-body text-center">
+            <h3>Our services</h3>
+			<p class="card-text text-light">Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy textLorem Ipsum is simply dummy text
+			Lorem Ipsum is simply dummy textLorem Ipsum is simply dummy textLorem Ipsum is simply dummy textLorem Ipsum is simply dummy text</p>
+		</div>
+		</div>
+		
+		<div class="card bg-success">
+		<div class="card-body text-center">
+            <h3>Contact us</h3>
+			<p class="card-text">No 221B, Baker street<br>London<br>Ph no:123456789<br>E-mail: loremipsum@gmail.com</p>
+		</div>
+		</div>
+		</div>
+                <br>
+               <p class="p-4" id="myname"> Designed by Bharath Vasishta<p>
+            </div>
+        </footer>
+        
+        
+    </body>
+</html>
